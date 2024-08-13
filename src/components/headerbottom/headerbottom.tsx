@@ -1,3 +1,5 @@
+import CategoryListCol from "./productlistcategory";
+
 /* eslint-disable @typescript-eslint/no-unused-vars */
 const HeaderBottom = () => {
   return (
@@ -12,11 +14,15 @@ const HeaderBottom = () => {
             <div className="absolute hidden rounded-md group-hover:inline-block top-full left-0 bg-slate-500">
               <div className="w-52">
                 <ul className="mb-3">
-                  <li className="transition-all ease-in-out delay-300 py-2 px-3 hover:px-4">
+                  <li className="group/item transition-all ease-in-out delay-300 py-2 px-3 hover:px-4 relative ">
                     <a href="#" className=" font-thin">
                       <i className="fas fa-laptop"></i>
                       <span className=" ml-2">Laptop</span>
                     </a>
+                    <div className="absolute hidden group-hover/item:inline-block 
+                    top-0 left-full w-96 h-96 bg-slate-600">
+                      <CategoryListCol/>
+                    </div>
                   </li>
                   <li className="transition-all ease-in-out delay-300 py-2 px-3 hover:px-4">
                     <a href="#" className=" font-thin">
