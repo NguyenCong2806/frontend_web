@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 const Logintopbar = () => {
   return (
-    <div className=" hidden  md:inline-block sm:inline-block">
+    <div className=" hidden  md:hidden lg:inline-block">
       <ul className="flex gap-4">
         <li className="text-xs text-white">
           <a href="#">Đăng nhập</a>
