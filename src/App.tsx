@@ -1,12 +1,12 @@
 import "./App.css";
-import Logo from "./screens/logo/logo";
+import HeaderView from "./screens/header/header";
 import Topheaderbar from "./screens/topheaderbar/top_header_bar";
 
 function App() {
   return (
     <div>
       <Topheaderbar />
-      <Logo />
+      <HeaderView/>
     </div>
   );
 }

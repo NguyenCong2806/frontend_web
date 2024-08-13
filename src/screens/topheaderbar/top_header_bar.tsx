@@ -6,7 +6,7 @@ const Topheaderbar = () => {
   return (
     <div className=" bg-black py-2">
       <div className="container mx-auto px-54">
-        <div className="flex flex-col items-center text-center gap-3 md:flex-row md:justify-between">
+        <div className="flex flex-col items-center text-center gap-3 lg:flex-row lg:justify-between">
           <Listtopbar />
           <Logintopbar />
         </div>
