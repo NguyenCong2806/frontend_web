@@ -11,7 +11,7 @@ const HeaderBottom = () => {
             <a className="ml-2" href="#">
               Danh mục sản phẩm
             </a>
-            <div className="absolute hidden rounded-md group-hover:inline-block top-full left-0 bg-slate-500">
+            <div className="absolute hidden rounded-md group-hover:inline-block top-full left-0 bg-slate-500 z-40">
               <div className="w-52">
                 <ul className="mb-3">
                   <li className="group/item transition-all ease-in-out delay-300 py-2 px-3 hover:px-4 relative ">
