@@ -2,7 +2,7 @@
 import Slider from "react-slick";
 const SimpleSlider = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -10,7 +10,7 @@ const SimpleSlider = () => {
     initialSlide: 0,
     autoplay: true,
     autoplaySpeed: 5000,
-    cssEase: "linear",
+    cssEase: "ease-out",
     pauseOnHover: true,
     responsive: [
         {
