@@ -1,6 +1,7 @@
 import "./App.css";
 import AdvertisingImageView from "./screens/advertisingimage/advertisingimageview";
 import BannerBelowview from "./screens/bannerbelow/bannerbelowview";
+import BoxImageView from "./screens/boximage/boximageview";
 import HeaderView from "./screens/header/header";
 import SectionPromotionView from "./screens/sectionpromotion/sectionpromotionview";
 import SliderView from "./screens/Slider/slider";
@@ -15,6 +16,7 @@ function App() {
       <BannerBelowview/>
       <SectionPromotionView/>
       <AdvertisingImageView/>
+      <BoxImageView/>
     </div>
   );
 }
