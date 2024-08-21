@@ -18,8 +18,8 @@ const ProductPromotion = () => {
           <span className="text-slate-900">900.000 đ</span>
         </span>
       </div>
-      <div className="absolute w-14 h-14 rounded-full bg-red-700 top-2 right-2">
-          <p className="ml-2 my-4 text-white font-bold">-18%</p>
+      <div className="absolute w-12 h-12 rounded-full bg-red-700 top-2 right-2">
+          <p className="mx-1 my-3 text-white font-bold">-18%</p>
       </div>
     </div>
   );
