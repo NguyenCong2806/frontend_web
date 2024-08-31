@@ -2,6 +2,7 @@ import "./App.css";
 import AdvertisingImageView from "./screens/advertisingimage/advertisingimageview";
 import BannerBelowview from "./screens/bannerbelow/bannerbelowview";
 import BoxImageView from "./screens/boximage/boximageview";
+import FooterView from "./screens/footer/footerview";
 import GalleryView from "./screens/gallery/galleryview";
 import HeaderView from "./screens/header/header";
 import ProductCategoryView from "./screens/products/productcategory";
@@ -28,6 +29,7 @@ function App() {
       <TitelView titel="LAPTOP GAME & ĐỒ HỌA"/>
       <ProductCategoryView/>
       <GalleryView/>
+      <FooterView/>
     </div>
   );
 }
