@@ -1,9 +1,9 @@
 import "./App.css";
-import ProductComponents from "./components/product/productcomponents";
 import AdvertisingImageView from "./screens/advertisingimage/advertisingimageview";
 import BannerBelowview from "./screens/bannerbelow/bannerbelowview";
 import BoxImageView from "./screens/boximage/boximageview";
 import HeaderView from "./screens/header/header";
+import ProductsView from "./screens/products/productssalehot";
 import SectionPromotionView from "./screens/sectionpromotion/sectionpromotionview";
 import SliderView from "./screens/Slider/slider";
 import TitelView from "./screens/titelmain/titelmain";
@@ -20,7 +20,7 @@ function App() {
       <AdvertisingImageView/>
       <BoxImageView/>
       <TitelView titel="SẢN PHẨM BÁN CHẠY"/>
-      <ProductComponents/>
+      <ProductsView/>
     </div>
   );
 }
