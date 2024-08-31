@@ -3,8 +3,10 @@ import AdvertisingImageView from "./screens/advertisingimage/advertisingimagevie
 import BannerBelowview from "./screens/bannerbelow/bannerbelowview";
 import BoxImageView from "./screens/boximage/boximageview";
 import HeaderView from "./screens/header/header";
+import ProductsView from "./screens/products/productssalehot";
 import SectionPromotionView from "./screens/sectionpromotion/sectionpromotionview";
 import SliderView from "./screens/Slider/slider";
+import TitelView from "./screens/titelmain/titelmain";
 import Topheaderbar from "./screens/topheaderbar/top_header_bar";
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <SectionPromotionView/>
       <AdvertisingImageView/>
       <BoxImageView/>
+      <TitelView titel="SẢN PHẨM BÁN CHẠY"/>
+      <ProductsView/>
     </div>
   );
 }
