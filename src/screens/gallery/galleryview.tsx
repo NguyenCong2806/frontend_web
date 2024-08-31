@@ -51,7 +51,7 @@ const GalleryView = () => {
   ];
   return (
     <div className=" bg-slate-100">
-      <div className="container mx-auto w-full my-8 py-3">
+      <div className="container mx-auto w-full py-3">
         <div className="flex flex-row justify-between items-center flex-wrap px-1">
           {ArryProduct.map((pro) => (
             <GalleryComponent titel={pro.titel} img={pro.img} href={pro.href} />
