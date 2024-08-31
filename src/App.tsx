@@ -2,7 +2,9 @@ import "./App.css";
 import AdvertisingImageView from "./screens/advertisingimage/advertisingimageview";
 import BannerBelowview from "./screens/bannerbelow/bannerbelowview";
 import BoxImageView from "./screens/boximage/boximageview";
+import GalleryView from "./screens/gallery/galleryview";
 import HeaderView from "./screens/header/header";
+import ProductCategoryView from "./screens/products/productcategory";
 import ProductsView from "./screens/products/productssalehot";
 import SectionPromotionView from "./screens/sectionpromotion/sectionpromotionview";
 import SliderView from "./screens/Slider/slider";
@@ -21,6 +23,11 @@ function App() {
       <BoxImageView/>
       <TitelView titel="SẢN PHẨM BÁN CHẠY"/>
       <ProductsView/>
+      <TitelView titel="MÁY TÍNH ĐỂ BÀN"/>
+      <ProductCategoryView/>
+      <TitelView titel="LAPTOP GAME & ĐỒ HỌA"/>
+      <ProductCategoryView/>
+      <GalleryView/>
     </div>
   );
 }
