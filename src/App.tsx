@@ -1,4 +1,6 @@
 import "./App.css";
+// import CartMobile from "./components/mobile/cart-mobile";
+// import MobileSidebar from "./components/mobile/mobile-sidebar";
 import AdvertisingImageView from "./screens/advertisingimage/advertisingimageview";
 import BannerBelowview from "./screens/bannerbelow/bannerbelowview";
 import BoxImageView from "./screens/boximage/boximageview";
@@ -14,7 +16,7 @@ import Topheaderbar from "./screens/topheaderbar/top_header_bar";
 
 function App() {
   return (
-    <div>
+    <div className="relative">
       <Topheaderbar />
       <HeaderView />
       <SliderView />
@@ -30,6 +32,8 @@ function App() {
       <ProductCategoryView/>
       <GalleryView/>
       <FooterView/>
+      {/* <MobileSidebar/> */}
+      {/* <CartMobile/> */}
     </div>
   );
 }

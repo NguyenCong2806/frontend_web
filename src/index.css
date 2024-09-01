@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.mobile-header{
+  background-color: rgba(109, 109, 109,0.5);
+}
+
+
 .sticky-header {
   position: fixed;
   top: 0;
   width: 100%;
   transition: all 0.5s ease;
   animation: smoothScroll 1s forwards;
-  z-index: 999999999999;
+  z-index: 999999;
 }
 
 @keyframes smoothScroll {
