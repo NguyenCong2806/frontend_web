@@ -5,7 +5,25 @@
 .mobile-header{
   background-color: rgba(109, 109, 109,0.5);
 }
+body {
+  --sb-track-color: #232E33;
+  --sb-thumb-color: #6BAF8D;
+  --sb-size: 5px;
+}
 
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+}
 
 .sticky-header {
   position: fixed;
