@@ -1,4 +1,5 @@
 import FootercolOneComponent from "../../components/footer/footercolone";
+import FootercolThreeComponent from "../../components/footer/footercolthree";
 import FootercolTwoComponent from "../../components/footer/footercoltwo";
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
@@ -6,12 +7,11 @@ const FooterView = () => {
   return (
     <div className=" bg-slate-900">
       <div className="container mx-auto py-10">
-        <div className="flex flex-col gap-6 md:flex-row 
-        lg:flex-row justify-start md:justify-between md:gap-3 md:items-center lg:items-center flex-wrap px-4 md:px-1 lg:px-1">
+        <div className=" flex flex-col md:flex-row md:gap-3 lg:flex-row justify-start lg:gap-20 px-3 md:px-0 space-y-5 lg:space-y-0">
           <FootercolOneComponent/>
           <FootercolTwoComponent/>
           <FootercolTwoComponent/>
-          <FootercolTwoComponent/>
+          <FootercolThreeComponent/>
         </div>
       </div>
     </div>
