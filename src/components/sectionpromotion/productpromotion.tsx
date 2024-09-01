@@ -1,3 +1,5 @@
+import { currencyformat } from "../../utilities/currencyformat";
+
 /* eslint-disable @typescript-eslint/no-unused-vars */
 const ProductPromotion = () => {
   return (
@@ -14,8 +16,8 @@ const ProductPromotion = () => {
       </div>
       <div>
         <span className="font-bold space-x-2  md:space-x-4">
-          <span className="text-sm text-slate-700 line-through">1.200.000 đ</span>
-          <span className="text-slate-900">900.000 đ</span>
+          <span className="text-sm text-slate-700 line-through">{currencyformat(1200000)}</span>
+          <span className="text-slate-900">{currencyformat(900000)}</span>
         </span>
       </div>
       <div className={"absolute top-2 right-3 "}>

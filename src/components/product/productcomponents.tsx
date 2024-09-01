@@ -1,4 +1,5 @@
 import ProductItem from "../../props/ProductItem";
+import { currencyformat } from "../../utilities/currencyformat";
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
 const ProductComponents = (props: ProductItem) => {
@@ -28,7 +29,7 @@ const ProductComponents = (props: ProductItem) => {
                 : "line-through text-xs md:text-sm md:inline-block lg:text-md text-slate-700")
             }
           >
-            {props.product.originalprice} đ
+            {currencyformat(props.product.originalprice)}
           </span>
           <span
             className={
@@ -36,7 +37,7 @@ const ProductComponents = (props: ProductItem) => {
               (salecheck ? "hidden" : "block md:inline-block")
             }
           >
-            {props.product.saleprice} đ
+            {currencyformat(props.product.saleprice)}
           </span>
         </span>
       </div>
