@@ -18,8 +18,10 @@ const ProductPromotion = () => {
           <span className="text-slate-900">900.000 đ</span>
         </span>
       </div>
-      <div className="absolute w-12 h-12 rounded-full bg-red-700 top-2 right-2">
-          <p className="mx-1 my-3 text-white font-bold">-18%</p>
+      <div className={"absolute top-2 right-3 "}>
+        <div className="bg-contain bg-center bg-no-repeat p-3 bg-[url('https://maytinh3.maugiaodien.com/wp-content/themes/the-gioi-laptop/images/giamgia.png')]">
+          <p className="text-white font-bold">-18%</p>
+        </div>
       </div>
     </div>
   );
