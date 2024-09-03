@@ -89,8 +89,8 @@ const ProductInformainTion = () => {
         </p>
       </div>
       <div className="my-4">
-        <div className="w-full space-y-3 lg:space-x-2">
-          <button className="w-full lg:w-1/3 lg:inline-block bg-red-600 py-2 px-10 
+        <div className="w-full space-y-3 2xl:space-x-6">
+          <button className="w-full xl:w-1/2 2xl:w-1/3  bg-red-600 py-2 px-10 
           md:px-2 rounded-md text-white hover:bg-red-700 focus:bg-red-900">
             <span className="mr-2">
               <i className="fas fa-shopping-cart"></i>
@@ -98,7 +98,7 @@ const ProductInformainTion = () => {
             <span className="text-lg md:text-md font-bold">Thêm vào giỏ</span>
             <p className=" text-xs my-1">Giao tận nơi, lắp đặt miễn phí</p>
           </button>
-          <button className="w-full lg:w-1/3 lg:inline-block bg-red-600 py-2 px-10 rounded-md text-white hover:bg-red-700 focus:bg-red-900">
+          <button className="w-full xl:w-1/2 2xl:w-1/3 bg-red-600 py-2 px-10 rounded-md text-white hover:bg-red-700 focus:bg-red-900">
             <span className="mr-2">
               <i className="far fa-credit-card"></i>
             </span>
