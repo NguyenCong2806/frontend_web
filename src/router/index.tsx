@@ -3,6 +3,7 @@ import App from "../App";
 import HomeView from "../views/homeview";
 import ProductCatalogView from "../views/productcatalog";
 import ProductDetailView from "../screens/productdetails/productdetail";
+import ShoppingCartView from "../screens/shoppingcart/shopping-cart-screens";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,13 +14,16 @@ const router = createBrowserRouter([
         element: <HomeView />,
       },
       {
-        path: "/danh_muc_san_pham",
+        path: "/danh-muc-san-pham",
         element: <ProductCatalogView/>,
       }, 
       {
-        path: "/chi_tiet_san_pham",
+        path: "/chi-tiet-san-pham",
         element: <ProductDetailView/>,
-      },     
+      },  {
+        path: "/gio-hang",
+        element: <ShoppingCartView/>,
+      },    
     ],
   },
 ]);
