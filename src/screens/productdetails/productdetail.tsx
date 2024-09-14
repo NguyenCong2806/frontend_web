@@ -6,7 +6,7 @@ import ProductSpecifications from "../../components/productdetails/productspecif
 const ProductDetailView = () => {
   return (
     <div className="bg-gray-100">
-      <div className="container w-full mx-auto lg:mx-auto ">
+      <div className="container w-full mx-auto lg:mx-auto">
         <div className="flex flex-col xl:flex-row justify-between items-start py-6 gap-6">
           <div className="inline-block w-full  xl:w-4/5 bg-white md:p-3 p-4">
             <div className="flex flex-col md:gap-7 md:flex-row">
