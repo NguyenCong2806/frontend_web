@@ -9,10 +9,16 @@ import ScrollToTop from "react-scroll-to-top";
 function App() {
   return (
     <div className="relative">
-      <Topheaderbar />
-      <HeaderView />
-      <Outlet />
-      <FooterView />
+      <div className="flex flex-col h-screen justify-between">
+        <div className="inline-block">
+          <Topheaderbar />
+          <HeaderView />
+        </div>
+        <Outlet />
+        <div className="inline-block">
+          <FooterView />
+        </div>
+      </div>
       {/* <MobileSidebar/> */}
       {/* <CartMobile/> */}
       <ScrollToTop
