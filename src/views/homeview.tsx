@@ -10,7 +10,7 @@ import TitelView from "../screens/titelmain/titelmain";
 
 const HomeView = () => {
   return (
-    <div>
+    <div className="block">
       <SliderView />
       <BannerBelowview />
       <SectionPromotionView />
