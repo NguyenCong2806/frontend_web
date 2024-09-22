@@ -4,6 +4,7 @@ import HomeView from "../views/homeview";
 import ProductCatalogView from "../views/productcatalog";
 import ProductDetailView from "../screens/productdetails/productdetail";
 import ShoppingCartView from "../screens/shoppingcart/shopping-cart-screens";
+import PayScreens from "../screens/pay/payscreens";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,15 +16,20 @@ const router = createBrowserRouter([
       },
       {
         path: "/danh-muc-san-pham",
-        element: <ProductCatalogView/>,
-      }, 
+        element: <ProductCatalogView />,
+      },
       {
         path: "/chi-tiet-san-pham",
-        element: <ProductDetailView/>,
-      },  {
+        element: <ProductDetailView />,
+      },
+      {
         path: "/gio-hang",
-        element: <ShoppingCartView/>,
-      },    
+        element: <ShoppingCartView />,
+      },
+      {
+        path: "/thanh-toan",
+        element: <PayScreens />,
+      },
     ],
   },
 ]);
